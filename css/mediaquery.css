@@ -1,0 +1,119 @@
+@media screen and (max-width: 1120px) {
+    #service>.service-container>.s-row>.s-card {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #about>.container>.a-row>.a-col>.title>h1 {
+        font-size: 36px;
+    }
+
+    #about>.container>.a-row>.a-col>.dis>p {
+        font-size: 13px;
+    }
+
+    #service>.service-container>.s-row>.s-card {
+        width: 30%;
+    }
+
+    #service>.service-container>.s-row>.s-card>.card-body p {
+        font-size: 14px;
+    }
+
+    footer>.f-con>.f-row>.fast {
+        width: 35%
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header>nav>.nav-link {
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translate(-100%);
+        background-color: #e9e9e9;
+        transition: 300ms ease-in-out;
+    }
+
+
+    header>nav>.nav-link>ul {
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 30px;
+    }
+
+    header>nav>.nav-link>ul>li a {
+        color: #9f7908;
+        display: block;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    header>nav>.nav-link>ul>li>a::before {
+        background-color: transparent;
+    }
+
+    header>nav>.toggle {
+        display: flex;
+    }
+
+    #about>.container>.a-row>.a-col>img {
+        display: block;
+    }
+
+    #about>.container>.a-row {
+        flex-direction: column;
+    }
+    #about>.container>.a-row>.a-col>.title>h1 {
+        font-size: 32px;
+    }
+
+    #about>.container>.a-row>.right {
+        background-image: url(none);
+        box-shadow: none;
+        margin-top: 20px;
+    }
+
+ 
+
+    #service>.service-container>.service-title>h2 {
+        font-size: 28px;
+    }
+
+    #about>.container>.a-row>.a-col {
+        width: 100%;
+    }
+
+    #service>.service-container>.s-row>.s-card {
+        width: 45%;
+    }
+
+    footer>.f-con>.f-row {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    footer>.f-con>.f-row>.fast {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    header>nav>.nav-link {
+        transform: translate(0%) !important;
+    } 
+}
+
+@media screen and (max-width: 567px) {
+    #service>.service-container>.s-row>.s-card {
+        width: 100%;
+    }
+
+    footer>.f-con>.f-row {
+        flex-direction: column;
+    }
+}
